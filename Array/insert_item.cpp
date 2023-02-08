@@ -47,7 +47,6 @@ int *insertItem(int *array, int size, int value, int pos)
             i++;
         }
         delete[] array;
-        array = newArray;
     }
     return newArray;
 }
