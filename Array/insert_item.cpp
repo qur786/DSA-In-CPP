@@ -9,6 +9,7 @@ bool checkBoundary(int pos, int size)
     {
         cout << endl;
         cout << "Index out of bound error" << endl;
+        exit(1);
         isValid = false;
     }
     return isValid;
